@@ -1,6 +1,6 @@
 <?php
 
-$shape_pool = json_decode(file_get_contents("ans.json"));
+$shape_pool = json_decode(file_get_contents(__DIR__ . '/ans.json'));
 
 $get_shape = function($gd, $p) {
     $set = '';
